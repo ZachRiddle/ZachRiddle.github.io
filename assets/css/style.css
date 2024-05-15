@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* Style the header */
+header {
+    background-color: #056f18;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+  
+  article {
+    float: left;
+    padding: 20px;
+    width: 50%;
+    height: 800px;
+    background-color: rgb(	147, 233, 190)
+  }
+  
+  article2 {
+    float: right;
+    padding: 20px;
+    width: 50%;
+    height: 800px;
+    background-color: rgb(105, 167, 136)
+  }
+  
+  /* Clear floats after the columns */
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  @media (max-width: 500px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
