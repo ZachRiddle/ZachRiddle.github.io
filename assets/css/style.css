@@ -11,7 +11,7 @@ header {
     padding: 30px;
     text-align: center;
     font-size: 35px;
-    color: white;
+    color: black;
   }
   
   article {
@@ -21,7 +21,7 @@ header {
     height: 800px;
     background-color: rgb(	147, 233, 190)
   }
-  
+
   article2 {
     float: right;
     padding: 20px;
